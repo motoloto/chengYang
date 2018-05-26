@@ -1,0 +1,114 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 90px;
+  
+}
+body {
+  background: #00000000 ;
+  width: 100% ;
+}
+body,input,button,select,textarea{
+  font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+  font-size:108%;
+}
+
+@media (min-width: 920px) {
+  body {
+    padding-top: 70px;
+  }
+  .carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* width: 100% */
+  }
+  #bar-logo {
+    height: 40px;
+  }
+}
+
+@media (max-width: 919px) {
+  body {
+    padding-top: 70px;
+  }
+  .carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* width: 100% */
+  }
+  #bar-logo {
+    height: 0px;
+  }
+}
+
+.navbar-custom {
+  background-color: #da2020;
+  opacity: 0.9;
+}
+.navbar-custom .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+
+.carousel-item {
+  /* height: 65vh; */
+  min-height: 150px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+#logo {
+  height: 75px;
+}
+
+h1 {
+  display: inline-flex;
+}
+
+.fa-facebook-square {
+  color: #ffffff;
+}
+.icon-blue {
+  color: #424ef7
+}
