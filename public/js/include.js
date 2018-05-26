@@ -9,7 +9,7 @@ var scrollp=0;
                 $(window).scroll(function () {
                 // ask about the position of scroll 
 
-                    if ($(this).scrollTop() < scrollp) {
+                    if ($(this).scrollTop() < scrollp || 0 ==window.pageYOffset) {
                         $('.navbar').fadeIn();
                         scrollp= $(this).scrollTop();
                     } else {
