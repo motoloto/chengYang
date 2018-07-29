@@ -1,7 +1,8 @@
-$(function(){
-  $("#nav").load("nav.html")
+$(document).ready(function(){
+    $(function(){
+    $("#nav").load("nav.html")
+    });
 });
-
 var scrollp=0;
     (function ($) {
         $(document).ready(function(){
