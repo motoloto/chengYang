@@ -10,18 +10,10 @@
 
     <title>關於承揚汽車</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <!-- Bootstrap core JavaScript -->
-    <script async  language="JavaScript" type="text/javascript" src="jquery/jquery.min.js"></script>
-    <script async  language="JavaScript" type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <script async  language="JavaScript" type="text/javascript" src="js/include.js"></script>
 
   </head>
 
@@ -123,6 +115,33 @@
       </div>
       <!-- /.container -->
     </footer>
+
+    <noscript id="deferred-styles">
+      <!-- Bootstrap core CSS -->
+      <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- Custom styles for this template -->
+      <link href="css/modern-business.css" rel="stylesheet">
+    </noscript>
+    
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script async  language="JavaScript" type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script async  language="JavaScript" type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script async  language="JavaScript" type="text/javascript" src="js/include.js"></script>
 
   </body>
 
