@@ -13,4 +13,9 @@ Node.js
 'npm install'
 'npm start'
 
-Demo URL: https://cheng-yang-cheng-yang.193b.starter-ca-central-1.openshiftapps.com/index.html
+### Paas
+Bluemix
+
+
+Demo URL: https://cheng-yang.mybluemix.net/
+
