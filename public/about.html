@@ -1,119 +1,225 @@
 <!DOCTYPE html>
-<html lang="cht">
+<html lang="zh-Hant-TW">
 
-  <head>
-
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>關於承揚汽車</title>
-
-
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-
-  </head>
-
-  <body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="承揚汽車成立於1994年，為高雄地區專業的福斯車系維修保養中心，提供優質的汽車維修服務與技術支援。">
+    <meta name="author" content="承揚汽車">
+    <meta name="theme-color" content="#e30613">
     
+    <title>關於承揚汽車 | 專業福斯維修保養中心</title>
+    
+    <!-- Social Media Tags -->
+    <meta property="og:title" content="關於承揚汽車 | 專業福斯維修保養中心" />
+    <meta property="og:description" content="承揚汽車擁有超過20年的專業維修經驗，由原廠認證技師團隊為您服務。" />
+    <meta property="og:image" content="image/mainScreen3.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/vw_logo.jpg">
+    
+    <!-- Modern CSS Framework -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #e30613;
+            --secondary-color: #333333;
+        }
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('image/mainScreen3.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0 60px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            transition: transform 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .team-member-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            object-fit: cover;
+        }
+        
+        .section-padding {
+            padding: 80px 0;
+        }
+        
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        .breadcrumb-item a {
+            color: var(--primary-color);
+        }
+        
+        .partner-logo {
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+            max-width: 150px;
+            margin: 0 auto;
+        }
+        
+        .partner-logo:hover {
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+
+<body>
+
     <!-- Navigation -->
     <div id="nav"></div>
 
-    <!-- Page Content -->
-    <div class="container">
-
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">本廠介紹</h1>
-
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">本廠介紹</li>
-      </ol>
-
-      <!-- Intro Content -->
-      <div class="row">
-        <div class="col-lg-6">
-          <img class="img-fluid rounded mb-4" src="image/mainScreen.jpg" alt="">
-        </div>
-        <div class="col-lg-6 text-gray">
-          <h2>關於承揚汽車</h2>
-          <p>承揚汽車成立於西元1994年，於高雄市岡山區介壽東路上開業至今已餘20年載。營業期間已服務無數位車主，建立良好的口碑與客戶關係。</p>
-          <p>承揚汽車前身為福斯慶眾汽車岡山區維修中心，維修中心結束營業後，由具有原廠專業技術的修護技師合作成立，提供以福斯車系為主的維修及保養服務，此外也兼營福斯中古車輛的銷售買賣。</p>
-          <p>為了擴大汽車銷售維修業務及服務更多的車主，於西元2007年加盟嘉樂寶汽車，成為KIA卡旺貨車岡山區經銷商，憑藉一貫的專業服務及技術，樹立車輛維修的新標竿。</p>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <!-- Team Members -->
-      <h2>服務團隊</h2>
-
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100 text-center">
-            <!-- <img class="card-img-top" src="http://placehold.it/750x450" alt=""> -->
-            <div class="card-body">
-              <h4 class="card-title">鐘金城</h4>
-              <h6 class="card-subtitle mb-2 text-muted">廠長</h6>
-              <p class="card-text">具有汽車修護技師執照、汽車檢驗執照。曾任職於福斯原廠汽車維修中心擔任廠長，多年的汽車維修經歷能夠快速處理車輛各項問題，並擅長焊接、板金等一般修護技師無法提供的技術支援。</p>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold">關於承揚汽車</h1>
+                    <p class="lead">專業技術團隊，為您的愛車提供最優質的服務</p>
+                </div>
             </div>
-            <!-- <div class="card-footer">
-              <a href="#">name@example.com</a>
-            </div> -->
-          </div>
         </div>
-      
-        <div class="col-lg-4 mb-4">
-          <div class="card h-100 text-center">
-            <!-- <img class="card-img-top" src="http://placehold.it/750x450" alt=""> -->
-            <div class="card-body">
-              <h4 class="card-title">新的成員</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-              <p class="card-text">你也想投入汽車修護的行列嗎?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <!-- Our Customers -->
-      <h2>合作夥伴</h2>
-      <div class="row">
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="image/partner.jpg" alt="">
-        </div>
-        <!-- <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div>
-        <div class="col-lg-2 col-sm-4 mb-4">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        </div> -->
-      </div>
-      <!-- /.row -->
-
     </div>
-    <!-- /.container -->
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">首頁</a></li>
+                <li class="breadcrumb-item active" aria-current="page">關於我們</li>
+            </ol>
+        </nav>
+
+        <!-- Company Introduction -->
+        <section class="section-padding">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded shadow" src="image/mainScreen3.png" alt="承揚汽車外觀">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">專業維修保養的最佳選擇</h2>
+                    <p class="lead text-muted mb-4">承揚汽車成立於1994年，為高雄地區專業的福斯車系維修保養中心</p>
+                    <div class="mb-4">
+                        <p>承揚汽車前身為福斯慶眾汽車岡山區維修中心，由具有原廠專業技術的修護技師合作成立，提供以福斯車系為主的維修及保養服務。</p>
+                        <p>憑藉專業的技術與優質的服務，我們已服務無數車主，建立良好的口碑與客戶關係。2007年起，我們更加盟嘉樂寶汽車，擴大服務範圍至貨車維修領域。</p>
+                        <p>在結束加盟後，我們仍致力於提供客戶最安心、可靠的汽車維修服務，並持續引進先進的設備與技術，確保每一位車主的愛車都能獲得最佳的照顧。</p>
+                    </div>
+                    <div class="row g-4 mt-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-3 fa-2x"></i>
+                                <div>
+                                    <h5 class="mb-1">原廠認證技師</h5>
+                                    <p class="mb-0 text-muted">專業技術團隊</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-tools text-primary me-3 fa-2x"></i>
+                                <div>
+                                    <h5 class="mb-1">完善設備</h5>
+                                    <p class="mb-0 text-muted">先進診斷工具</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="section-padding bg-light">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="fw-bold mb-4">專業團隊</h2>
+                        <p class="lead text-muted">擁有豐富經驗的技術團隊，為您的愛車提供最優質的服務</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="mb-4">
+                                    <i class="fas fa-user-tie fa-4x text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-3">鐘金城</h4>
+                                <h6 class="text-muted mb-3">廠長</h6>
+                                <p class="card-text">具有汽車修護技師執照、汽車檢驗執照。曾任職於福斯原廠汽車維修中心擔任廠長，擅長焊接、板金等專業技術。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="mb-4">
+                                    <i class="fas fa-user-cog fa-4x text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-3">專業技師</h4>
+                                <h6 class="text-muted mb-3">維修技師</h6>
+                                <p class="card-text">經驗豐富的維修團隊，專精於福斯系列車款的保養維修，確保您的愛車獲得最專業的照顧。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="mb-4">
+                                    <i class="fas fa-users fa-4x text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-3">加入我們</h4>
+                                <h6 class="text-muted mb-3">職缺開放中</h6>
+                                <p class="card-text">我們歡迎對汽車維修充滿熱情的夥伴加入。如果您想要成為專業技師，歡迎與我們聯繫。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+    </div>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
-      </div>
-      <!-- /.container -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 承揚汽車企業社. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-line"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <noscript id="deferred-styles">
